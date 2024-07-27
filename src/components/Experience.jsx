@@ -7,12 +7,12 @@ import Footer from './Footer';
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden' id='experience'>
+    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col justify-between' id='experience' style={{ minHeight: '100vh' }}>
       <div className='pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
       </div>
-      <VerticalTimeline className='mt-9'>
+      <VerticalTimeline className='mt-9 h-[calc(80vh-12rem)]'>
         {experiences.map((experience) => (
           <VerticalTimelineElement
             className="relative vertical-timeline-element--work"

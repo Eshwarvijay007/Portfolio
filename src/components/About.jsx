@@ -26,32 +26,31 @@ const ServiceCard = ({ service }) => (
 
 const About = () => {
   return (
-    <div>
+    <div className='bg-black w-screen min-h-screen flex flex-col justify-between'>
+      <div className='text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
+        <div className='flex flex-col justify-around'>
+          <div className='sm:px-16 px-2'>
+            <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Eshwar Vijay, a 2024 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/eshwar-vijay-637a68187/' target='_blank'>Software developer</a> I specialize in both MEAN and MERN stacks🚀. 
+            <br/>
+            ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
+            On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
 
-    <div className='bg-black h-full w-full text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
-      <div className='flex flex-col justify-around'>
-        <div className='sm:px-16 px-2'>
-          <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-          <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Hi, I'm Eshwar Vijay, a 2024 graduate🎓 with a passion for crafting robust backend systems and captivating mobile applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/eshwar-vijay-637a68187/' target='_blank'>Software developer</a> I specialize in both MEAN and MERN stacks🚀. 
-          <br/>
-          ✍️ Beyond coding, I love sharing my insights and experiences through engaging blogs on <a className=' text-purple-300 hover:text-purple-400 duration-300' href="https://medium.com/" target='_blank'>Medium</a>, where I delve into the intricacies of software development and technology trends.
-          On a different note, I'm also into photography📸. It's not just a hobby; I see it as a way to capture moments🌟📷, tell stories.</p>
+            <ButtonLink
+              url='https://drive.google.com/file/d/1uW-nzwJw0-7HimjosTGut-ZHo1inMhr2/view?usp=drive_link'
+              text='View Resume →'
+              padding={`p-3`}
+            />
 
-          <ButtonLink
-            url='https://drive.google.com/file/d/1uW-nzwJw0-7HimjosTGut-ZHo1inMhr2/view?usp=drive_link'
-            text='View Resume →'
-            padding={`p-3`}
-          />
-
-        </div>
-        <div className='mt-20 flex justify-center flex-wrap gap-7'>
-          {services.map((service) => (
-            <ServiceCard service={service} />
-          ))}
+          </div>
+          <div className='mt-20 flex justify-center flex-wrap gap-7'>
+            {services.map((service) => (
+              <ServiceCard service={service} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-    <Footer/>
+      <Footer/>
     </div>
   )
 }

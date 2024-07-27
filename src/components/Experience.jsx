@@ -9,7 +9,7 @@ const Experience = () => {
     <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col min-h-screen' id='experience' style={{ height: '100vh' }}>
       <div className='pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
-        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
+        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience & Education.</h2>
       </div>
       <VerticalTimeline className='mt-9 flex-grow'>
         {experiences.map((experience) => (
@@ -20,7 +20,7 @@ const Experience = () => {
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
             icon={
-              <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank'>
+              <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank' rel="noreferrer">
                 <img
                   src={experience.logo}
                   alt={experience.company}

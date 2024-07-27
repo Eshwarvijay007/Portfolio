@@ -132,11 +132,17 @@
 	animation-duration: 45s;
 }
 
+.nav-link:hover {
+    border-bottom: 2px solid #ffffff; /* Change color as needed */
+    padding-bottom: 5px; /* Adjusts the vertical offset of the border */
+}
+
+
 .circles li:nth-child(9) {
 	left: 20%;
 	width: 15px;
 	height: 15px;
-	animation-delay: 2s;
+	animation-delay: 0.5s;
 	animation-duration: 35s;
 }
 

@@ -1,7 +1,7 @@
 
 import React from "react";
-import vpn from '../assets/copeople.png'
-import copeople from '../assets/copeople.png'
+import vpn from '../assets/Accesspay.png'
+import copeople from '../assets/chatbot.jpg'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -61,17 +61,17 @@ const Projects = () => {
 export const project = [
     {
         title:'ChatBot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
+        description:' chatbot using Node.js and Express.js, designed to handle user queries and provide real-time responses. It integrates seamlessly with various APIs and employs a modular architecture for easy maintenance and scalability.',
         image: {copeople},
         git:"https://github.com/Eshwarvijay007/chatboot",
-        technologies:[ 'HTML','NodeJS', 'tailwind CSS']
+        technologies:[ 'HTML','NodeJS', 'JQuery']
     },
     {
         title:'AccessPay Website',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
+        description:'AccessPay website, a financial web app using Node.js and Express.js, featuring three main functionalities: transaction tracking, loan management, and crypto rewards. This project showcases my expertise in backend development and creating robust financial solutions.',
         image: {vpn},
-        git:"https://github.com/Eshwarvijay007/chatboot",
-        technologies:[ 'HTML','NodeJS', 'tailwind CSS']
+        git:"https://github.com/Eshwarvijay007/FinalYear-Project",
+        technologies:[ 'BootStrap','NodeJS', 'ExpressJS']
     },
 ]
 

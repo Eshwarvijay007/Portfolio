@@ -28,7 +28,7 @@ const About = () => {
             I create engaging vlogs on <a className='text-orange-300 hover:text-red-500 duration-300' href='https://www.instagram.com/browwn.traveller/' target='_blank'>Instagram</a>, It's not just a hobby; I see it as a way to capture moments🌟, tell stories.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1uW-nzwJw0-7HimjosTGut-ZHo1inMhr2/view?usp=drive_link'
+              url='https://drive.google.com/file/d/1YsVhKhW4vi0aiAF8--j4htC3APxwR7CG/view?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />

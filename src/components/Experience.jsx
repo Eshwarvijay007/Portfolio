@@ -4,15 +4,14 @@ import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../constants';
 import Footer from './Footer';
 
-
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col justify-between' id='experience' style={{ minHeight: '100vh' }}>
+    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col min-h-screen' id='experience' style={{ height: '100vh' }}>
       <div className='pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
       </div>
-      <VerticalTimeline className='mt-9 h-[calc(80vh-12rem)]'>
+      <VerticalTimeline className='mt-9 flex-grow'>
         {experiences.map((experience) => (
           <VerticalTimelineElement
             className="relative vertical-timeline-element--work"

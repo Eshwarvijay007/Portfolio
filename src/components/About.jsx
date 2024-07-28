@@ -41,7 +41,7 @@ const About = () => {
         </div>
         {/* Image Container */}
         <div className='hidden sm:block sm:w-1/3'>
-          <img src='/profile.jpg' alt='Eshwar Vijay' className='small-image' />
+          <img src='/eshwar1.gif' alt='Eshwar Vijay' className='small-image' />
         </div>
       </div>
       <Footer/>

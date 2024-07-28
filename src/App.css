@@ -169,8 +169,11 @@
 }
 
 .small-image {
-	width: 100%;
-	height: 100%;
-	object-fit: cover; /* Ensures the aspect ratio is maintained */
+	margin: 5%;
+	width: 90%;
+	height: 70%;
+	object-fit: cover;
+	border-radius: 5%;
+	 /* Ensures the aspect ratio is maintained */
   }
   

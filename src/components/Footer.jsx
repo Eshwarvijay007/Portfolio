@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaGithub, FaTwitter } from 'react-icons/fa';
-import { AiFillMediumCircle, AiFillLinkedin } from 'react-icons/ai';
+import { FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { AiFillLinkedin } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 
 
@@ -25,8 +25,8 @@ const Footer = () => {
 					<a href="https://github.com/Eshwarvijay007" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }} >
 						<FaGithub className='text-xl' />
 					</a>
-					<a href="" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
-						<AiFillMediumCircle className='text-xl' />
+					<a href="https://www.instagram.com/browwn.traveller/" target='_blank' className='transition ease-in-out duration-300 rounded-md hover:scale-110 cursor-pointer hover:-translate-y-1' style={{ cursor: 'pointer' }}>
+						<FaInstagram className='text-xl' />
 					</a>
 				</div>
 			</div>

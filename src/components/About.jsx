@@ -3,9 +3,10 @@ import '../App.css';
 import { services } from '../constants';
 import ButtonLink from './ButtonLink';
 import Footer from './Footer';
+import { Section } from 'lucide-react';
 
 const ServiceCard = ({ service }) => (
-  <div className='sm:w-[250px] w-full'>
+  <div className='sm:w-[200px] w-full'>
     <div className='w-full green-pink-gradient p-[1px] rounded-[20px]'>
       <div className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col' style={{ background: '#151030' }}>
         <img src={service.icon} alt='some_icon' className='w-16 h-16 object-contain' />
@@ -17,7 +18,9 @@ const ServiceCard = ({ service }) => (
 
 const About = () => {
   return (
-    <div className='bg-black w-screen min-h-screen flex flex-col justify-between'>
+    <section>
+      <div id="about">
+      <div className='bg-black w-screen min-h-screen flex flex-col justify-between'>
       <div className='text-white sm:flex sm:items-start sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
         <div className='flex flex-col justify-around sm:w-1/2'>
           <div className='sm:px-16 px-2'>
@@ -44,9 +47,12 @@ const About = () => {
           <img src='/eshwar1.gif' alt='Eshwar Vijay' className='small-image' />
         </div>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
-  )
-}
+  </div>
+    
+    </section>
+  );
+};
 
 export default About;

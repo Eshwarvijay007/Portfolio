@@ -2,11 +2,13 @@ import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { experiences } from '../constants';
-import Footer from './Footer';
+import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col min-h-screen' id='experience' style={{ height: '100vh' }}>
+    <section>
+      <div id="Experience">
+      <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col min-h-screen' id='experience'>
       <div className='pt-12 sm:px-16'>
         <p className='font-light'>MY JOURNEY SO FAR.</p>
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience & Education.</h2>
@@ -20,13 +22,9 @@ const Experience = () => {
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
             icon={
-              <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank' rel="noreferrer">
-                <img
-                  src={experience.logo}
-                  alt={experience.company}
-                  className='w-[60%] h-[60%] object-contain'
-                />
-              </a>
+              <motion.a whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank' rel="noreferrer">
+                <img src={experience.logo} alt={experience.company} className='w-[60%] h-[60%] object-contain' />
+              </motion.a>
             }
           >
             <div>
@@ -52,9 +50,13 @@ const Experience = () => {
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
-  )
-}
+      </div>
+
+    </section>
+    
+  );
+};
 
 export default Experience;

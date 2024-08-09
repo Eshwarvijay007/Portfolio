@@ -38,7 +38,9 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
   
 const Projects = () => {
     return (
-        <div className="bg-black min-h-screen flex flex-col justify-between">
+        <section>
+            <div id="Projects">
+            <div className="bg-black min-h-screen flex flex-col justify-between">
             <div className="flex flex-wrap gap-7 justify-center items-center m-12 p-12">
                 {project.map((item, index) => (
                     <ProjectCard
@@ -52,10 +54,13 @@ const Projects = () => {
                     />
                 ))}
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
+            </div>
+        </section>
+        
     );
-}
+};
 
 
 export const project = [

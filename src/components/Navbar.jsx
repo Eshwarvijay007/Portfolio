@@ -1,5 +1,6 @@
-import React, { useState ,useEffect} from 'react';
-import { Link,useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,27 +13,22 @@ const Navbar = () => {
     setMobileMenuOpen(false);
   };
 
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
   return (
-    <nav className="bg-gray-800 p-4 text-white fixed w-full z-10 top-0" style={{ cursor: 'default' }}>
-      <div className="mx-auto text-center flex w-5/6 justify-between">
+    <nav className="bg-gray-800 p-4 text-white fixed w-screen z-10 top-0 left-0" style={{ cursor: 'default' }}>
+      <div className="mx-auto text-center flex w-5/6 justify-between ">
         
         <div className="hidden sm:flex space-x-4 items-center text-sm">
-          <Link to='/' className="nav-link">Home</Link>
-          <Link to='/about' className="nav-link">About</Link>
+          <a href='/' className="nav-link">Home</a>
+          <a href="#about" onClick={closeMobileMenu} className="nav-link">About</a>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
-          <a href="/">Eshwar Vijay</a>
+          <a href="/" className="hover:text-yellow-300 transition-colors duration-300">Eshwar Vijay</a>
         </div>
         <div className="hidden sm:flex space-x-4 items-center text-sm">
-          <Link to='/projects' className="nav-link">Projects</Link>
-          <Link to='/experience' className="nav-link">Journey</Link>
-          <Link to='/contact' className="nav-link">Contact</Link>
+          {/* Using AnchorLink for smooth scrolling */}
+          <a href="#Projects" onClick={closeMobileMenu} className="nav-link">Projects</a>
+          <a href='#Experience' onClick={closeMobileMenu} className="nav-link">Journey</a>
+          <a href="#Contact" onClick={closeMobileMenu} className="nav-link">Contact</a>
         </div>
 
         <div className="sm:hidden">

@@ -224,9 +224,12 @@ const Contact = () => {
     };
 
     return (
-        <div className='bg-black w-screen min-h-screen flex flex-col justify-between'>
-        <div className='text-white contact overflow-x-hidden pt-12 mt-8'>
-            <div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl'>
+        <section>
+            <div id="Contact">
+
+            <div className='bg-black w-screen min-h-screen flex flex-col justify-between overflow-x-hidden'>
+        <div className='text-white contact overflow-x-hidden pt-12 mt-8 mb-6'>
+            <div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl border-2 border-blue-500 bg-black-200'>
                     <p className='font-light'>REACH OUT TO ME</p>
                     <h2 className='text-5xl font-extrabold mt-2 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 to-pink-500'>Contact.</h2>
                     <form
@@ -272,7 +275,7 @@ const Contact = () => {
 
                         <button
                             type='submit'
-                            className='pt-3 px-8 py-4 rounded-xl outline-none w-50 h-12 font-bold shadow-md bg-gray-900 flex items-center justify-center'
+                             className='pt-3 px-8 py-4 rounded-xl outline-none w-50 h-12 font-bold shadow-md bg-blue-700 hover:bg-blue-900 flex items-center justify-center transition duration-100 ease-in-out'
                         >
                             {loading ? "Sending..." : "Send"}
                         </button>
@@ -280,8 +283,12 @@ const Contact = () => {
                 </div>
                 <ToastContainer />
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
+
+            </div>
+        </section>
+        
     );
 };
 

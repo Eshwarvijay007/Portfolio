@@ -81,4 +81,3 @@ export const project = [
 ]
 
 export default Projects
-

@@ -7,10 +7,17 @@ import { Section } from 'lucide-react';
 
 const ServiceCard = ({ service }) => (
   <div className='sm:w-[200px] w-full'>
-    <div className='w-full green-pink-gradient p-[1px] rounded-[20px]'>
-      <div className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col' style={{ background: '#151030' }}>
-        <img src={service.icon} alt='some_icon' className='w-16 h-16 object-contain' />
-        <h3 className='text-white text-[20px] font-bold text-center'>{service.title}</h3>
+    <div className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card transition-all duration-300 hover:shadow-xl hover:scale-105'>
+      <div 
+        className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col transition-all duration-300 hover:bg-opacity-80' 
+        style={{ background: '#151030' }}
+      >
+        <img 
+          src={service.icon} 
+          alt='service_icon' 
+          className='w-16 h-16 object-contain transition-transform duration-300 hover:scale-110' 
+        />
+        <h3 className='text-white text-[20px] font-bold text-center transition-all duration-300 hover:text-yellow-300'>{service.title}</h3>
       </div>
     </div>
   </div>

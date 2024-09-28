@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState, useRef } from 'react';
 import { name } from '../constants';
 import { motion } from "framer-motion";
@@ -14,6 +13,7 @@ const Home = () => {
 
   const ref = useRef(0);
   const [text, setText] = useState('');
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -24,6 +24,22 @@ const Home = () => {
     }, 500);
     return () => clearInterval(interval);
   }, [text]);
+
+  useEffect(() => {
+    // Add listener to update isMobile when the window resizes
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    // Remove listener when the component unmounts
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    };
+  }, []);
 
   return (
     <div className='area relative z-0 bg-black w-screen h-screen overflow-x-hidden'>
@@ -53,6 +69,7 @@ const Home = () => {
 	  <div className="pt-16">
       <About /> 
 	  <Experience/>
+    
 	  <Projects/>
 	  <Contact/>
       <Footer/>

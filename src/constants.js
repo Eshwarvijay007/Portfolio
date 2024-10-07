@@ -21,7 +21,7 @@ export const experiences = [
     {
         'company': 'Aqmenz Automation private limited( INTERN )',
         
-        'duration': 'August 2023 - September 2023',
+        'duration': 'Aug 2023 - Nov 2023',
         'logo': 'https://images.thecompanycheck.com/companylogo/AQMENZ_AUTOMATION_PRIVATE_LIMITED_457835.webp',
         'points': [
             'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',

@@ -18,6 +18,19 @@ const Home = () => {
   const ref = useRef(0);
   const [text, setText] = useState('');
   const [isMobile, setIsMobile] = useState(false);
+  const [greetingIndex, setGreetingIndex] = useState(0);
+  const greetings = [
+    'ನಮಸ್ಕಾರ', // Kannada
+    'नमस्ते',   // Hindi
+    'வணக்கம்',   // Tamil
+    'నమస్కారం',  // Telugu
+    'नमस्कार',   // Marathi
+    'ਸਤ ਸ੍ਰੀ ਅਕਾਲ', // Punjabi
+    'નમસ્કાર',   // Gujarati
+    'নমস্কার',   // Bengali
+    'നമസ്കാരം',   // Malayalam
+    'Hello',   // Urdu
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +38,7 @@ const Home = () => {
         ref.current++;
         setText((prevText) => prevText + name[ref.current - 1]);
       }
-    }, 500);
+    }, 50);
     return () => clearInterval(interval);
   }, [text]);
 
@@ -43,6 +56,21 @@ const Home = () => {
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setGreetingIndex((prevIndex) => {
+        if (prevIndex < greetings.length - 1) {
+          return prevIndex + 1; // Increment index until the last greeting
+        } else {
+          clearInterval(interval); // Stop the interval after the last greeting
+          return prevIndex; // Keep the last index
+        }
+      });
+    }, 1000); // Change every 2 seconds
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
@@ -66,8 +94,13 @@ const Home = () => {
       </ul>
       <div className='hero relative h-[calc(100vh)] flex justify-center items-center text-white' id='hero'>
         <div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
-          <h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>Hi, I'm&nbsp;<span className='text-yellow-200 font-extrabold'>{text}</span></h1>
-          <p className='mt-3 text-xl'>I love to learn and build scalable and optimized systems.</p>
+          <h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>
+            <span className='text-yellow-200'>
+              {greetingIndex < greetings.length ? greetings[greetingIndex] : 'Hello'}
+            </span>, 
+            <span className='text-white font-extrabold'> I'm</span>&nbsp;<span className='text-white font-extrabold'>{text}</span>
+          </h1>
+          {/* <p className='mt-3 text-xl'>I love to learn and build scalable and optimized systems.</p> */}
         </div>      
       </div>
 	  <div className="pt-16">
@@ -84,4 +117,3 @@ const Home = () => {
 }
 
 export default Home;
-

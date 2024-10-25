@@ -19,8 +19,16 @@ const Certificates = () => {
       <div id="Experience">
       <div className='experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden flex flex-col min-h-screen' id='experience'>
       <div className='pt-12 sm:px-16'>
-        <p className='font-light'>Accomplishments.</p>
-        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Certifications.</h2>
+        <p className='font-light'>ACCOMPLISHMENTS.</p>
+        <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Licenses & Certifications.</h2>
+        <p className='font-light'>
+          Certifications and licenses validate professional expertise, showcasing a commitment to mastering industry-specific skills and standards.
+         <p>They enhance credibility, competitiveness, and adherence to best practices in one’s field.For professionals, these credentials demonstrate </p> 
+        </p>
+        <p className='font-light'>
+          readiness to excel and a commitment to ongoing learning.
+        </p>
+        
       </div>
       <VerticalTimeline 
         className='mt-9 flex-grow'

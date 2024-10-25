@@ -75,10 +75,9 @@ export const certificates = [
         'duration': 'July 2024',
         'logo': 'https://gadget.co.za/wp-content/uploads/2020/12/aws-logo-scaled.jpg',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Gained foundational knowledge in AWS core services, cloud concepts, security, and pricing models, enabling effective cloud-based decision-making and solutions development.',
+            'Acquired insights into AWS architecture principles and best practices for deploying and managing resources securely and cost-effectively in the AWS environment.',
+            
         ],
         'url':'https://drive.google.com/file/d/1v6Chk1FOr2e7FD1TKr9NUcV34M7WMWCW/view?usp=sharing'
     },
@@ -88,10 +87,9 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://th.bing.com/th/id/OIP.zvHO9dUzdq7IMolAuWtdCwAAAA?pid=ImgDet&w=203&h=203&c=7&dpr=1.3',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Understand AI and ML Basics: Learn the foundational concepts of AI and ML including the differences between artificial intelligence and machine learning and deep learning.',
+            'Explore Machine Learning and Deep Learning Fundamentals: Dive into the basics of machine learning with an emphasis on supervised and unsupervised learning techniques. Gain insights into deep learning, exploring convolutional and sequence models like CNNs and RNNs and LSTMs.',
+            'Discover Generative AI and Language Models: Understand the capabilities and applications of generative AI models and language frameworks, learning how these tools can be utilized to automate and enhance a wide range of tasks.'
         ],
         'url':'https://catalog-education.oracle.com/pls/certview/sharebadge?id=CE50B58AF8000E34BFDEC7AA16DCC4888337C27CD1F2EA1580C4B6D5CFA62E10'
     },
@@ -101,10 +99,9 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://static.vecteezy.com/system/resources/previews/021/514/825/non_2x/microsoft-software-brand-logo-symbol-with-name-design-illustration-with-black-background-free-vector.jpg',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed coursework covering core concepts of generative AI, including content creation, model types, and future predictions, equipping me with a solid foundation to leverage AI technologies effectively in professional settings.',
+            "Learned to apply Vilas's three-pillar ethical framework and distinguish the roles of C-suite and board responsibilities, ensuring responsible and ethical implementation of AI systems within organizations",
+            ' Gained insights into the importance of incorporating customer feedback in AI system development, fostering solutions that align with user needs and ethical standards.'
         ],
         'url':'https://www.linkedin.com/learning/certificates/c17922b68a223c16d1434449da3e53fffc54d69c8a5dab1c3ebac788b7216878'
     },
@@ -114,10 +111,8 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://th.bing.com/th/id/OIP.r9XxU2tvidq6VAOD5KS-GAAAAA?rs=1&pid=ImgDetMain',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed SQL and Relational Databases 101 from Cognitive Class, gaining hands-on skills in querying, data manipulation, and database design principles for effective data management.',
+            ' Acquired expertise in SQL operations such as JOINs, filtering, and aggregation, enhancing my ability to analyze and retrieve data efficiently from relational databases.'
         ],
         'url':'https://courses.cognitiveclass.ai/certificates/60d63ee94c7d4aa5befc14268d0780a8'
     },
@@ -127,10 +122,9 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://th.bing.com/th/id/OIP.NVIjtw67GsA9n-UIs5Q2cwAAAA?rs=1&pid=ImgDetMain',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed coursework under DevOps practitioners Ernest Mueller and James Wickett, covering the core values of CAMS (Culture, Automation, Measurement, and Sharing) and its application to agile and lean project management within the DevOps ecosystem.',
+            'Gained hands-on experience with automation tools like Ansible, Terraform, Docker, and Kubernetes to automate configuration management, enhance system reliability, and improve efficiency through Infrastructure as Code strategies.',
+            'Developed skills in continuous integration and delivery, including building, testing, and deployment using CI/CD best practices, with practical application in creating and managing build pipelines for streamlined code deployment.'
         ],
         'url':'https://www.linkedin.com/learning/certificates/b809588d180a5657468188ece4d04c0135f68473c22648b1c9ef764a865979c5'
     },
@@ -140,10 +134,9 @@ export const certificates = [
         'duration': 'September 2024',
         'logo': 'https://cdn.asp.events/CLIENT_CloserSt_D86EA381_5056_B739_5482D50A1A831DDD/sites/CEAS-2022/media/libraries/exhibitors/4b63e942-283c-11ed-b13-0a410bd8e1d9-logo.png',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed KodeKloud’s Linux course, gaining hands-on experience in navigating the Linux CLI, managing directories, and handling files efficiently.',
+            'Developed proficiency in configuring software repositories, managing application dependencies, and troubleshooting installation errors within a Linux environment.',
+            ' Acquired expertise in using sudo, configuring permissions, and managing users, alongside practical exercises in KodeKloud’s hands-on labs to ensure strong foundational skills in Linux system administration.'
         ],
         'url':'https://learn.kodekloud.com/certificate/cf4a0e30-ee4a-4ff7-b9a8-a5ddde7f2d0a'
     },
@@ -153,10 +146,9 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://logos-world.net/wp-content/uploads/2021/02/Docker-Symbol.png',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed courses covering Docker basics, including container creation, Dockerfiles, and building Docker images, to streamline application deployment across environments.',
+            'Developed skills in writing Dockerfiles, managing custom images, and running Docker containers to enhance development efficiency and ensure consistent application behavior.',
+            'Gained expertise in configuring and managing multiple Docker services with Docker Compose, optimizing local development workflows and simplifying multi-container application deployment.'
         ],
         'url':'https://www.linkedin.com/learning/certificates/b24ec1dce138206ca1e84136b20bf0e9e0a0d0f141ddfd7d9134115a9c19b50d'
     },
@@ -166,10 +158,8 @@ export const certificates = [
         'duration': 'August 2023',
         'logo': 'https://coursereport-production.imgix.net/uploads/school/logo/1323/original/Coding_Ninjas_logo.jpeg?w=200&h=200',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed modules covering core C++ concepts, including variables, data types, and input/output operations, building a solid foundation in programming with C++.',
+            ' Gained hands-on experience with C++ syntax, data manipulation, and console input/output, enhancing coding efficiency and readability for complex applications.'
         ],
         'url':'https://drive.google.com/file/d/1ou3EXGz8R5cOZunvcmzfxxrtN0lOzAii/view?usp=sharing'
     },
@@ -179,10 +169,9 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://s3.amazonaws.com/quiin/vendors/logos/000/049/346/original/SA_scrum_alliance_logo_1080x1080_2_.png?1593155485',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed the AI & Agility course, gaining skills to leverage AI tools for improved productivity, effective product development, project management, and efficient coding.',
+            'Acquired insights into integrating AI in agile team settings, applying agile principles to optimize workflows and future-proof skills for evolving tech roles.',
+            'Earned a certificate of completion from BadgeCert, demonstrating competency in utilizing AI in professional settings to enhance workflows, drive innovation, and support agile methodologies.'
         ],
         'url':'https://bcert.me/spdqqohqr'
     },
@@ -192,10 +181,8 @@ export const certificates = [
         'duration': 'August 2024',
         'logo': 'https://preparecenter.org/wp-content/uploads/2021/04/google-_square_logo.jpeg',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed the "Introduction to Generative AI" course by Google Cloud Skills Boost, covering key concepts of generative AI, including model types, content generation, and foundational AI principles.',
+            "Gained hands-on experience with Google Cloud's generative AI tools and platforms, equipping me to leverage AI for innovative content creation and automated solutions."
         ],
         'url':'https://www.cloudskillsboost.google/public_profiles/3f5b2da4-dacd-4c1f-876d-18314fafc571/badges/10268015?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share'
     },
@@ -205,10 +192,8 @@ export const certificates = [
         'duration': 'July 2024',
         'logo': 'https://www.channelinfoline.com/wp-content/uploads/2022/08/great-learning-logo.jpg',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed a comprehensive course on Git, covering essential commands and workflows for version control to efficiently manage, maintain, and track changes in source code.',
+            'Gained practical knowledge in setting up repositories, branching, merging, and collaborating on code, ensuring effective source code management in software development projects.'
         ],
         'url':'https://drive.google.com/file/d/16qBTspEWB7QivBPhtl0j2lRxKmm8wdNc/view'
     },
@@ -218,23 +203,24 @@ export const certificates = [
         'duration': 'July 2024',
         'logo': 'https://preply.com/wp-content/uploads/2022/12/unnamed-12-e1671472612961.png',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed Udemy’s comprehensive web development course, covering MongoDB, Express.js, React, and Node.js to build full-stack applications.',
+            'Gained hands-on experience creating RESTful APIs using Node.js and Express.js, enabling efficient server-client communication and data handling.',
+            'Built dynamic and responsive user interfaces with React, leveraging components, hooks, and state management to enhance user experience.',
+            'Learned to structure, store, and query data in MongoDB, enabling scalable backend development for data-driven applications.',
+            'Covered best practices for deploying MERN applications to cloud platforms and using Git for version control, ensuring streamlined development and collaboration.'
         ],
         'url':'https://www.udemy.com/certificate/UC-7565af73-c44c-4c94-8b2e-f4d2fdf3bf90/'
     },
     {
         'company': 'NPTEL',
-        'title':'data structure and algorithms using java',
+        'title':'Data Structure and Algorithms Using Java',
         'duration': 'October 2022',
         'logo': 'https://th.bing.com/th/id/OIP.tpy531u6zidHRLhg9y6JcQHaEl?rs=1&pid=ImgDetMain',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Completed a 12-week elective course covering core data structures like arrays, linked lists, stacks, queues, binary trees, and graphs, and implemented them using Java.',
+            'Gained practical knowledge in implementing binary search trees, height-balanced trees, heaps, and various graph structures in Java, enhancing skills for efficient data management.',
+            'Developed proficiency in essential algorithms, including searching, sorting, greedy algorithms, and shortest path algorithms, with hands-on Java implementations to optimize code performance.',
+            'Acquired a strong foundation in Java programming principles for developing secure, scalable, and platform-independent software solutions aligned with IT industry standards.'
         ],
         'url':'https://drive.google.com/file/d/1QGSosNoRUnReVsN-nlByu9pBI9POnhhU/view?usp=sharing'
     },

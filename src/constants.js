@@ -14,7 +14,6 @@ export const services = [
     },
     
 ];
-
 export const name = 'Eshwar.';
 
 export const experiences = [
@@ -68,9 +67,184 @@ export const experiences = [
     
 ]
 
+export const certificates = [
+    {
+        'company': 'Amazon Web Services (AWS)',
+        'title':'AWS Cloud Practitioner Essentials',
+        
+        'duration': 'July 2024',
+        'logo': 'https://gadget.co.za/wp-content/uploads/2020/12/aws-logo-scaled.jpg',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://drive.google.com/file/d/1v6Chk1FOr2e7FD1TKr9NUcV34M7WMWCW/view?usp=sharing'
+    },
+    {
+        'company': 'Oracle',
+        'title':'Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate',
+        'duration': 'August 2024',
+        'logo': 'https://th.bing.com/th/id/OIP.zvHO9dUzdq7IMolAuWtdCwAAAA?pid=ImgDet&w=203&h=203&c=7&dpr=1.3',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://catalog-education.oracle.com/pls/certview/sharebadge?id=CE50B58AF8000E34BFDEC7AA16DCC4888337C27CD1F2EA1580C4B6D5CFA62E10'
+    },
+    {
+        'company': 'Microsoft',
+        'title':'Career Essentials in Generative AI by Microsoft and LinkedIn',
+        'duration': 'August 2024',
+        'logo': 'https://static.vecteezy.com/system/resources/previews/021/514/825/non_2x/microsoft-software-brand-logo-symbol-with-name-design-illustration-with-black-background-free-vector.jpg',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://www.linkedin.com/learning/certificates/c17922b68a223c16d1434449da3e53fffc54d69c8a5dab1c3ebac788b7216878'
+    },
+    {
+        'company': 'IBM(Cognitive Class)',
+        'title':'SQL and Relational Databases 101',
+        'duration': 'August 2024',
+        'logo': 'https://th.bing.com/th/id/OIP.r9XxU2tvidq6VAOD5KS-GAAAAA?rs=1&pid=ImgDetMain',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://courses.cognitiveclass.ai/certificates/60d63ee94c7d4aa5befc14268d0780a8'
+    },
+    {
+        'company': 'PagerDuty',
+        'title':'DevOps Professional Certificate by PagerDuty and LinkedIn',
+        'duration': 'August 2024',
+        'logo': 'https://th.bing.com/th/id/OIP.NVIjtw67GsA9n-UIs5Q2cwAAAA?rs=1&pid=ImgDetMain',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://www.linkedin.com/learning/certificates/b809588d180a5657468188ece4d04c0135f68473c22648b1c9ef764a865979c5'
+    },
+    {
+        'company': 'KodeKloud',
+        'title':'Learning Linux Basics Course & Labs',
+        'duration': 'September 2024',
+        'logo': 'https://cdn.asp.events/CLIENT_CloserSt_D86EA381_5056_B739_5482D50A1A831DDD/sites/CEAS-2022/media/libraries/exhibitors/4b63e942-283c-11ed-b13-0a410bd8e1d9-logo.png',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://learn.kodekloud.com/certificate/cf4a0e30-ee4a-4ff7-b9a8-a5ddde7f2d0a'
+    },
+    {
+        'company': 'Docker',
+        'title':'Docker Foundations Professional Certificate',
+        'duration': 'August 2024',
+        'logo': 'https://logos-world.net/wp-content/uploads/2021/02/Docker-Symbol.png',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://www.linkedin.com/learning/certificates/b24ec1dce138206ca1e84136b20bf0e9e0a0d0f141ddfd7d9134115a9c19b50d'
+    },
+    {
+        'company': 'Coding Ninjas',
+        'title':'Basics of c++',
+        'duration': 'August 2023',
+        'logo': 'https://coursereport-production.imgix.net/uploads/school/logo/1323/original/Coding_Ninjas_logo.jpeg?w=200&h=200',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://drive.google.com/file/d/1ou3EXGz8R5cOZunvcmzfxxrtN0lOzAii/view?usp=sharing'
+    },
+    {
+        'company': 'Scrum Alliance',
+        'title':'Completion of AI & Agility: A Comprehensive Introduction',
+        'duration': 'August 2024',
+        'logo': 'https://s3.amazonaws.com/quiin/vendors/logos/000/049/346/original/SA_scrum_alliance_logo_1080x1080_2_.png?1593155485',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://bcert.me/spdqqohqr'
+    },
+    {
+        'company': 'Google Cloud Skills Boost',
+        'title':'introduction to Generative AI',
+        'duration': 'August 2024',
+        'logo': 'https://preparecenter.org/wp-content/uploads/2021/04/google-_square_logo.jpeg',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://www.cloudskillsboost.google/public_profiles/3f5b2da4-dacd-4c1f-876d-18314fafc571/badges/10268015?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share'
+    },
+    {
+        'company': 'Great Learning',
+        'title':'Git Tutorial',
+        'duration': 'July 2024',
+        'logo': 'https://www.channelinfoline.com/wp-content/uploads/2022/08/great-learning-logo.jpg',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://drive.google.com/file/d/16qBTspEWB7QivBPhtl0j2lRxKmm8wdNc/view'
+    },
+    {
+        'company': 'udemy',
+        'title':'The Complete 2024 Web Development Bootcamp',
+        'duration': 'July 2024',
+        'logo': 'https://preply.com/wp-content/uploads/2022/12/unnamed-12-e1671472612961.png',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://www.udemy.com/certificate/UC-7565af73-c44c-4c94-8b2e-f4d2fdf3bf90/'
+    },
+    {
+        'company': 'NPTEL',
+        'title':'data structure and algorithms using java',
+        'duration': 'October 2022',
+        'logo': 'https://th.bing.com/th/id/OIP.tpy531u6zidHRLhg9y6JcQHaEl?rs=1&pid=ImgDetMain',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+        'url':'https://drive.google.com/file/d/1QGSosNoRUnReVsN-nlByu9pBI9POnhhU/view?usp=sharing'
+    },
+    
+    // Add more certificates as needed
+];
 
 
 export const EMAIL_JS_SERVICE_ID = 'service_90wb9t5';
 export const EMAIL_JS_TEMPLATE_ID = 'template_8l87rew';
 export const EMAIL_JS_PUBLIC_KEY = 'pHPjc9RGGkF66r86N';
+
 

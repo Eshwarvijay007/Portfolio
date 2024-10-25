@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
 import Contact from './Contact';
+import Certificate from './Certificate';
 
 
 
@@ -74,6 +75,7 @@ const Home = () => {
 	  <Experience/>
     
 	  <Projects/>
+    <Certificate/>
 	  <Contact/>
       <Footer/>
 	  </div>

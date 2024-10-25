@@ -26,12 +26,13 @@ const Home = () => {
     'नमस्ते',   // Hindi
     'வணக்கம்',   // Tamil
     'నమస్కారం',  // Telugu
-    'नमस्कार',   // Marathi
-    'ਸਤ ਸ੍ਰੀ ਅਕਾਲ', // Punjabi
+    'হ্যালো',   // Marathi
+    'ନମସ୍କାର',
+    'നമസ്കാരം', // Punjabi
     'નમસ્કાર',   // Gujarati
     'নমস্কার',   // Bengali
-    'നമസ്കാരം',   // Malayalam
-    'नमस्कार',   // Urdu
+       // Malayalam
+    'こんにちは',   // Urdu
   ];
 
   useEffect(() => {

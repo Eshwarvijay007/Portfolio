@@ -19,7 +19,9 @@ const Home = () => {
   const [text, setText] = useState('');
   const [isMobile, setIsMobile] = useState(false);
   const [greetingIndex, setGreetingIndex] = useState(0);
+  const [showEshwar, setShowEshwar] = useState(false); // New state to control Eshwar display
   const greetings = [
+    'Hello',
     'ನಮಸ್ಕಾರ', // Kannada
     'नमस्ते',   // Hindi
     'வணக்கம்',   // Tamil
@@ -29,7 +31,7 @@ const Home = () => {
     'નમસ્કાર',   // Gujarati
     'নমস্কার',   // Bengali
     'നമസ്കാരം',   // Malayalam
-    'Hello',   // Urdu
+    'नमस्कार',   // Urdu
   ];
 
   useEffect(() => {
@@ -65,10 +67,11 @@ const Home = () => {
           return prevIndex + 1; // Increment index until the last greeting
         } else {
           clearInterval(interval); // Stop the interval after the last greeting
+          setShowEshwar(true); // Set flag to show "I'm Eshwar"
           return prevIndex; // Keep the last index
         }
       });
-    }, 1000); // Change every 2 seconds
+    }, 700); // Change every 2 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -96,9 +99,10 @@ const Home = () => {
         <div className='pt-4 h-36 backdrop-blur-sm rounded-3xl'>
           <h1 className='text-6xl sm:text-7xl font-extrabold mt-2'>
             <span className='text-yellow-200'>
-              {greetingIndex < greetings.length ? greetings[greetingIndex] : 'Hello'}
-            </span>, 
-            <span className='text-white font-extrabold'> I'm</span>&nbsp;<span className='text-white font-extrabold'>{text}</span>
+              {showEshwar ? 'Hello' : greetings[greetingIndex]}
+            </span> 
+            {showEshwar && <span className='text-white font-extrabold'>,I'm &nbsp;Eshwar</span>}
+            {/* <span className='text-white font-extrabold'>{text}</span> */}
           </h1>
           {/* <p className='mt-3 text-xl'>I love to learn and build scalable and optimized systems.</p> */}
         </div>      

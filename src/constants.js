@@ -21,12 +21,15 @@ export const experiences = [
         'company': 'Amber Student( DEVOPS INTERN )',
         
         'duration': 'Nov 2024 - Present',
-        'logo': 'https://images.thecompanycheck.com/companylogo/AQMENZ_AUTOMATION_PRIVATE_LIMITED_457835.webp',
+        'logo': 'https://images.yourstory.com/cs/images/companies/OXHio8T2400x400-1632234083767.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75',
         'points': [
-            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
-            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
-            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
-            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+            'Implemented ephemeral Github Actions runners on GCP, automating VM lifecycle management for CI/CD, reducing infrastructure costs.',
+            'Developed a shared Jenkins library using Groovy and declarative pipeline syntax, consolidating 2-3 separate pipelines into a single, reusable template. This helps in code reusability and reduces duplication',
+            'Developed a Grafana dashboard to monitor POST and GET request error percentages using Lambda Function.',
+            'Implemented a GitHub Actions workflow to automatically check to terraform code format on pull requests.', 
+            'Developed a Bash script to eliminate the need for hardcoding secrets in local config files by fetching them securely from aws secret manager.',
+            'Implemented Terraform to manage and deploy lambda function code.',
+            'Improved the organization’s disaster recovery by implementing AWS Backup with cross-region replication. Created a  A backup plan with automated backups and cross-region replication to a geographically separate AWS region ensures business continuity in the event of a regional outage.' 
         ],
     },
     {

@@ -18,6 +18,18 @@ export const name = 'Eshwar.';
 
 export const experiences = [
     {
+        'company': 'Amber Student( DEVOPS INTERN )',
+        
+        'duration': 'Nov 2024 - Present',
+        'logo': 'https://images.thecompanycheck.com/companylogo/AQMENZ_AUTOMATION_PRIVATE_LIMITED_457835.webp',
+        'points': [
+            'Involved in dynamic contributions to AI development projects, actively influencing and improving project outcomes.',
+            'Developed multiple AI models and algorithms to simplify tasks for fellow developers, boosting efficiency and teamwork.',
+            'Enhanced product performance through significant contributions to AI backend development, optimizing essential components for improved efficiency 📈.',
+            'Implemented data security measures for AI models to ensure safe and compliant usage of sensitive data ⚙️.'
+        ],
+    },
+    {
         'company': 'Aqmenz Automation private limited( INTERN )',
         
         'duration': 'Aug 2023 - Nov 2023',

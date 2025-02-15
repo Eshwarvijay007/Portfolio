@@ -32,9 +32,9 @@ const About = () => {
         <div className='flex flex-col justify-around sm:w-1/2'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction.</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>👨‍💻 Namaste, I'm Eshwar Vijay, a 2024 graduate🎓 with a passion for crafting robust backend systems and captivating web applications.As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/eshwar-vijay-637a68187/' target='_blank'>Full-Stack Developer</a>
-            , I specialize in creating dynamic and robust web applications🚀. <br/>
-            ✍️ I prioritize writing clean, maintainable code and continuously strive to improve my <a className='text-blue-300 hover:text-violet-500 duration-300' href='https://github.com/Eshwarvijay007' target='_blank'>coding </a>practices.Beyond Coding,
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>🛠️ Namaste, I'm Eshwar Vijay, a 2024 graduate🎓 with a passion for crafting robust infrastructure solutions. As a seasoned <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/eshwar-vijay-637a68187/' target='_blank'>DevOps Engineer</a>
+            , I specialize in creating efficient and scalable cloud-based architectures🚀. <br/>
+            ✍️ I prioritize writing clean, maintainable code and continuously strive to improve my <a className='text-blue-300 hover:text-violet-500 duration-300' href='https://github.com/Eshwarvijay007' target='_blank'>coding </a>practices. Beyond Coding,
             I create engaging vlogs on <a className='text-orange-300 hover:text-red-500 duration-300' href='https://www.instagram.com/browwn.traveller/' target='_blank'>Instagram</a>, It's not just a hobby; I see it as a way to capture moments🌟, tell stories.</p>
 
             <ButtonLink
